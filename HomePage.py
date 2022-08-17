@@ -9,7 +9,6 @@ class HomePage:
     def __init__(self, driver):
         self.driver = driver
 
-        # self.signin_link_locator = 'a._yb_p9ncl'
         self.signin_link_locator = 'div.text'
 
     def click_signin(self):

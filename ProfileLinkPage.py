@@ -3,12 +3,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from SignOutPage import SignOutPage
 
+
 class ProfileLinkPage:
 
     def __init__(self, driver):
         self.driver = driver
 
-        self.profile_button_locator= '#ysignout'
+        self.profile_button_locator = '#ysignout'
 
     @property
     def click_profile_button(self):
